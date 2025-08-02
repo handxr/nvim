@@ -9,6 +9,7 @@ local plugins = {
   require("plugins.config.autopairs"),
   require("plugins.config.autotag"),
   require("plugins.config.tailwind"),
+  require("plugins.config.copilot"),
 }
 
 require("lazy").setup(plugins) 
