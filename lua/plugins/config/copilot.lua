@@ -12,9 +12,9 @@ return {
         enabled = true,
         auto_trigger = true,
         keymap = {
-          accept = "<C-y>",
-          accept_word = "<C-w>",
-          accept_line = "<C-l>",
+          accept = "<Tab>",
+          accept_word = false,
+          accept_line = false,
           next = "<M-]>",
           prev = "<M-[>",
           dismiss = "<C-]>",
@@ -22,7 +22,7 @@ return {
       },
       filetypes = {
         markdown = true,
-        help = true,
+        help = false,
       },
     })
   end,

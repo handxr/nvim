@@ -14,5 +14,6 @@ return {
     lspconfig.cssls.setup({ on_attach = on_attach })
     lspconfig.eslint.setup({ on_attach = on_attach })
     lspconfig.tailwindcss.setup({ on_attach = on_attach })
+    lspconfig.clangd.setup({ on_attach = on_attach })
   end,
 } 
